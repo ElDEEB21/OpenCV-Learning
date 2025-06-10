@@ -9,7 +9,7 @@ This repository serves as my personal learning log and practice space for OpenCV
 ## Learning Resources
 
 ### Primary Resource
-🎯 **Main Tutorial Series**: [OpenCV Course - Full Tutorial with Python](https://www.youtube.com/watch?v=oXlwWbU8l2o&list=PL9geFpaSWc9UPc6TdIVBsdYO4ue2IoaJP&index=12&pp=gAQBiAQB)
+🎯 **Main Tutorial Series**: [OpenCV Course - Full Tutorial with Python](https://youtu.be/oXlwWbU8l2o?si=sGK615i9zXabRJ4k)
 - **Source**: FreeCodeCamp
 - **Language**: Python
 - **Duration**: Comprehensive tutorial series
