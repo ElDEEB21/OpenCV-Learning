@@ -1,6 +1,6 @@
 import cv2 as cv
 
-img = cv.imread('Photos/cats.jpg')
+img = cv.imread('../Photos/cats.jpg')
 cv.imshow('Cats', img)
 
 ## Thresholding is a way to create a binary image from a grayscale image

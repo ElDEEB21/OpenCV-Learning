@@ -6,12 +6,12 @@ def rescale_frame(frame, scale=0.75):
     dimensions = (width, height)
     return cv.resize(frame, dimensions, interpolation=cv.INTER_AREA)
 
-# img = cv.imread('Photos/cat_large.jpg')
+# img = cv.imread('../Photos/cat_large.jpg')
 # resized_image = rescale_frame(img, scale=0.5)
 # cv.imshow('Cat', resized_image)
 # cv.waitKey(0)
 
-# capture = cv.VideoCapture('Videos/dog.mp4')
+# capture = cv.VideoCapture('../Videos/dog.mp4')
 # while True:
 #     isTrue, frame = capture.read()
     

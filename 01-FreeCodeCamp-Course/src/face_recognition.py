@@ -1,12 +1,12 @@
 import numpy as np
 import cv2 as cv
 
-haar_cascade = cv.CascadeClassifier('haar_cascade.xml')
+haar_cascade = cv.CascadeClassifier('../models/haar_cascade.xml')
 
 people = ['Ben Afflek', 'Elton John', 'Jerry Seinfield', 'Madonna', 'Mindy Kaling']
 
 face_recognizer = cv.face.LBPHFaceRecognizer_create()
-face_recognizer.read('face_trained.yml')
+face_recognizer.read('../models/face_trained.yml')
 
 def predict_face(img):
     gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
@@ -21,7 +21,9 @@ def predict_face(img):
 
     return img
 
-img = cv.imread(r'E:\Abdo ElDeeb\Courses\Artificial Intelligence\Computer Vision\OpenCV-Learning\Faces\val\elton_john\1.jpg')
+# img = cv.imread(r'E:\Abdo ElDeeb\Courses\Artificial Intelligence\Computer Vision\OpenCV-Learning\Faces\val\elton_john\1.jpg')
+# For testing, you can use any image from the Photos folder
+img = cv.imread('../Photos/group 1.jpg')
 predicted_img = predict_face(img)
 cv.imshow('Predicted Face', predicted_img)
 

@@ -1,6 +1,6 @@
 import cv2 as cv
 
-img = cv.imread('Photos/group 1.jpg')
+img = cv.imread('../Photos/group 1.jpg')
 cv.imshow('Photo', img)
 
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
@@ -8,7 +8,7 @@ cv.imshow('Gray', gray)
 
 ## Explination:
 # The Haar Cascade classifier is a machine learning object detection method used to identify objects for which it has been trained.
-haar_cascade = cv.CascadeClassifier('haar_cascade.xml')
+haar_cascade = cv.CascadeClassifier('../models/haar_cascade.xml')
 ### The CascadeClassifier class is used to load the pre-trained Haar Cascade model for face detection.
 faces_rect = haar_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=1)
 ## Parameters:

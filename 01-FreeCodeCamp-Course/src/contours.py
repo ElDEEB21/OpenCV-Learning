@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread('Photos/cats.jpg')
+img = cv.imread('../Photos/cats.jpg')
 # cv.imshow('Cat', img)
 
 blank = np.zeros(img.shape, dtype='uint8')  # Create a blank image with the same shape as the original image

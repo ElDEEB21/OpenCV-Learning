@@ -1,6 +1,6 @@
 import cv2 as cv
 
-img = cv.imread('Photos/cats.jpg')
+img = cv.imread('../Photos/cats.jpg')
 cv.imshow('Cat', img)
 
 ## Averaging (Explination: This method replaces each pixel's value with the average of its neighbors)

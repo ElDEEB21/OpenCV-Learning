@@ -37,6 +37,8 @@ This folder contains all the code and projects from the comprehensive OpenCV tut
 │   ├── labels.npy         # Label data
 │   └── haar_cascade.xml   # Haar cascade classifier
 ├── Simpsons.ipynb        # Jupyter notebook examples
+├── Photos/               # Sample Images for test
+├── Videos/               # Sample Videos for test
 └── README.md             # This file
 ```
 
@@ -62,7 +64,6 @@ This folder contains all the code and projects from the comprehensive OpenCV tut
 - [x] Face detection using Haar Cascades
 - [x] Face recognition system implementation
 - [x] Training custom face recognition models
-- [x] Real-time video processing
 
 ## Key Learning Outcomes
 
@@ -70,7 +71,6 @@ This folder contains all the code and projects from the comprehensive OpenCV tut
 2. **Image Processing**: Applying filters, transformations, and enhancement techniques
 3. **Feature Detection**: Identifying and extracting features from images
 4. **Object Detection**: Implementing face detection and recognition systems
-5. **Real-time Processing**: Working with video streams and live camera feeds
 
 ## How to Run
 
@@ -87,7 +87,7 @@ python src/face_detect.py
 ```
 
 ## Notes
-- All image paths in the source files reference `../resources/Photos/`
-- Video files are located in `../resources/Videos/`
+- All image paths in the source files reference `Photos/`
+- Video files are located in `Videos/`
 - Model files are saved in the `models/` directory
 - Some scripts may need path adjustments after the reorganization
