@@ -8,44 +8,72 @@ This repository serves as my personal learning log and practice space for OpenCV
 
 ## Learning Resources
 
-### Primary Resource
-🎯 **Main Tutorial Series**: [OpenCV Course - Full Tutorial with Python](https://youtu.be/oXlwWbU8l2o?si=sGK615i9zXabRJ4k)
+### ✅ Completed Resources
+🎯 **FreeCodeCamp OpenCV Course**: [OpenCV Course - Full Tutorial with Python](https://youtu.be/oXlwWbU8l2o?si=sGK615i9zXabRJ4k)
 - **Source**: FreeCodeCamp
 - **Language**: Python
-- **Duration**: Comprehensive tutorial series
+- **Status**: ✅ **COMPLETED**
+- **Duration**: Comprehensive tutorial series covering fundamentals
+
+### 🔄 Currently Learning
+🎓 **OpenCV University Course**: [Free OpenCV Course](https://opencv.org/university/free-opencv-course/)
+- **Source**: OpenCV.org University
+- **Alternative Link**: [YouTube Playlist](https://www.youtube.com/watch?v=hZWgEPOVnuM&list=PL6e-Bu0cqf_jyhItJm_hEAopg8XNvoMXY)
+- **Language**: Python
+- **Status**: 🔄 **IN PROGRESS**
+- **Focus**: Advanced computer vision concepts and practical applications
 
 ### Additional Resources
-📚 I'll be adding more learning resources as I progress:
+📚 Other learning resources:
 - Official OpenCV Documentation
 - Computer Vision books and papers
-- Other online tutorials and courses
 - Practice projects and challenges
 
 ## Repository Structure
 
 ```
 📁 OpenCV-Learning/
-├── 📄 *.py               # Python practice files (work in progress)
-├── 📁 Photos/            # Sample images for practice
-└── 📁 Videos/            # Sample videos for practice
+├── 📄 README.md                    # This file
+├── 📁 01-FreeCodeCamp-Course/      # ✅ Completed FreeCodeCamp tutorial materials
+│   ├── 📄 README.md               # Course-specific documentation
+│   ├── 📄 Simpsons.ipynb          # Face recognition project notebook
+│   ├── 📁 src/                    # Python practice files from the course
+│   ├── 📁 Photos/                 # Sample images used in exercises
+│   ├── 📁 Videos/                 # Sample videos for practice
+│   └── 📁 models/                 # Trained models and data files
+└── 📁 02-OpenCV-University/        # 🔄 Current: OpenCV University course materials
+    └── (To be organized as I progress through the course)
 ```
 
 ## Learning Progress
 
-### 🔄 Currently Learning
-- Basic OpenCV setup and fundamentals
-- Image and video handling
-- Following the FreeCodeCamp tutorial series
+### ✅ Completed
+**FreeCodeCamp OpenCV Course**:
+- [x] Basic OpenCV setup and fundamentals
+- [x] Image and video handling
+- [x] Image filtering and transformations
+- [x] Color space conversions
+- [x] Edge detection and contours
+- [x] Face detection and recognition
+- [x] Feature detection
+- [x] Histogram analysis
+- [x] Bitwise operations and masking
+- [x] Image smoothing and gradients
+- [x] Thresholding techniques
+- [x] Geometric transformations
 
-### 📋 Planned Topics
-- [ ] Image filtering and transformations
-- [ ] Color space conversions
-- [ ] Edge detection
-- [ ] Feature detection
-- [ ] Object detection
-- [ ] Face recognition
-- [ ] Motion detection
-- [ ] Machine learning with OpenCV
+### 🔄 Currently Learning (OpenCV University)
+- Advanced computer vision concepts
+- Real-world applications and projects
+- More sophisticated image processing techniques
+
+### 📋 Planned Topics (OpenCV University Course)
+- [ ] Advanced feature detection algorithms
+- [ ] Object tracking and motion analysis
+- [ ] 3D vision and stereo imaging
+- [ ] Deep learning integration with OpenCV
+- [ ] Performance optimization techniques
+- [ ] Real-time computer vision applications
 
 ## Prerequisites
 
@@ -66,12 +94,19 @@ pip install numpy matplotlib
 
 ## Usage
 
-The Python files in this repository demonstrate various OpenCV concepts as I work through the tutorial series. Each file focuses on specific functionality that I'm learning.
+### FreeCodeCamp Course Materials (Completed)
+The Python files in the `01-FreeCodeCamp-Course/src/` directory demonstrate various OpenCV concepts from the completed tutorial series. Each file focuses on specific functionality.
 
 ```bash
+# Navigate to the FreeCodeCamp course directory
+cd "01-FreeCodeCamp-Course/src"
+
 # Run any of the practice files
 python <filename>.py
 ```
+
+### OpenCV University Course (Current)
+As I progress through the OpenCV University course, new materials and projects will be organized in the `02-OpenCV-University/` directory.
 
 ## Notes and Tips
 
@@ -83,10 +118,13 @@ python <filename>.py
 
 ## Future Plans
 
-- Add more advanced computer vision projects
-- Implement real-time video processing
-- Explore machine learning integration
+- ✅ ~~Complete FreeCodeCamp OpenCV fundamentals course~~
+- 🔄 Progress through OpenCV University advanced course
+- Add more sophisticated computer vision projects
+- Implement real-time video processing applications
+- Explore deep learning integration with OpenCV
 - Create practical applications using learned concepts
+- Build a portfolio of computer vision projects
 
 ## Contributing
 
