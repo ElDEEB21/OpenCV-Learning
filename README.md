@@ -16,12 +16,18 @@ This repository serves as my personal learning log and practice space for OpenCV
 - **Duration**: Comprehensive tutorial series covering fundamentals
 
 ### 🔄 Currently Learning
-🎓 **OpenCV University Course**: [Free OpenCV Course](https://opencv.org/university/free-opencv-course/)
+🎓 **OpenCV Bootcamp (Free OpenCV Course)**: [Free OpenCV Course](https://opencv.org/university/free-opencv-course/)
 - **Source**: OpenCV.org University
 - **Alternative Link**: [YouTube Playlist](https://www.youtube.com/watch?v=hZWgEPOVnuM&list=PL6e-Bu0cqf_jyhItJm_hEAopg8XNvoMXY)
+- **Course Platform**: [courses.opencv.org](https://courses.opencv.org)
 - **Language**: Python
 - **Status**: 🔄 **IN PROGRESS**
-- **Focus**: Advanced computer vision concepts and practical applications
+- **Duration**: ~3 hours of video content
+- **Format**: 
+  - Self-paced video modules
+  - Integrated quizzes and Colab notebooks
+  - Official certification upon completion
+- **Focus**: Structured progression from foundational image manipulation to deep learning and real-world CV applications
 
 ### Additional Resources
 📚 Other learning resources:
@@ -41,8 +47,8 @@ This repository serves as my personal learning log and practice space for OpenCV
 │   ├── 📁 Photos/                 # Sample images used in exercises
 │   ├── 📁 Videos/                 # Sample videos for practice
 │   └── 📁 models/                 # Trained models and data files
-└── 📁 02-OpenCV-University/        # 🔄 Current: OpenCV University course materials
-    └── (To be organized as I progress through the course)
+└── 📁 02-OpenCV-Bootcamp/          # 🔄 Current: OpenCV Bootcamp course materials
+    └── (To be organized as I progress through the course modules)
 ```
 
 ## Learning Progress
@@ -62,18 +68,57 @@ This repository serves as my personal learning log and practice space for OpenCV
 - [x] Thresholding techniques
 - [x] Geometric transformations
 
-### 🔄 Currently Learning (OpenCV University)
-- Advanced computer vision concepts
-- Real-world applications and projects
-- More sophisticated image processing techniques
+### 🔄 Currently Learning (OpenCV Bootcamp)
+**Main Modules Covered:**
+- [ ] **Getting Started with Images** – basics of loading and displaying images
+- [ ] **Basic Image Manipulation** – resizing, cropping, color conversions
+- [ ] **Histograms & Color Segmentation** – analyzing pixel distributions, masking
+- [ ] **Video Processing & Analysis** – frame capture, video playback
+- [ ] **Contour & Shape Analysis** – detecting and analyzing shapes
+- [ ] **Playing with CV (HCI)** – simple game development using vision
+- [ ] **Web App Deployment** – building apps with Streamlit
+- [ ] **Image Registration Techniques** – aligning multiple images
+- [ ] **AR with ArUco Markers** – augmented reality basics
+- [ ] **Deep Learning Module** – integrating neural networks
+- [ ] **Face & Landmark Detection** – detecting faces and facial features
+- [ ] **Object Detection** – identifying objects in images/videos
+- [ ] **Object Tracking** – following moving objects in video
+- [ ] **Human Pose Estimation** – detecting keypoints on humans
 
-### 📋 Planned Topics (OpenCV University Course)
-- [ ] Advanced feature detection algorithms
-- [ ] Object tracking and motion analysis
-- [ ] 3D vision and stereo imaging
-- [ ] Deep learning integration with OpenCV
-- [ ] Performance optimization techniques
-- [ ] Real-time computer vision applications
+**Course Highlights:**
+- 🎯 Structured progression from foundational image manipulation to deep learning and real-world CV applications
+- 🛠️ Hands-on with Colab notebooks, practical quizzes, and optional projects
+- 🏆 Certificate from the official OpenCV team offered after meeting passing criteria
+
+### 📋 Learning Path (OpenCV Bootcamp Modules)
+The comprehensive curriculum covers:
+
+**🔰 Foundation Level:**
+- Getting Started with Images
+- Basic Image Manipulation
+- Histograms & Color Segmentation
+
+**🔧 Intermediate Level:**
+- Video Processing & Analysis
+- Contour & Shape Analysis
+- Image Registration Techniques
+
+**🚀 Advanced Level:**
+- Deep Learning Module
+- Face & Landmark Detection
+- Object Detection & Tracking
+- Human Pose Estimation
+
+**🎮 Practical Applications:**
+- Playing with CV (Human-Computer Interaction)
+- Web App Deployment with Streamlit
+- AR with ArUco Markers
+
+**🎯 Key Learning Outcomes:**
+- Master fundamental to advanced computer vision techniques
+- Build practical applications using OpenCV
+- Gain hands-on experience with deep learning integration
+- Develop skills in real-time video processing and analysis
 
 ## Prerequisites
 
@@ -105,8 +150,12 @@ cd "01-FreeCodeCamp-Course/src"
 python <filename>.py
 ```
 
-### OpenCV University Course (Current)
-As I progress through the OpenCV University course, new materials and projects will be organized in the `02-OpenCV-University/` directory.
+### OpenCV Bootcamp Course (Current)
+As I progress through the OpenCV Bootcamp, new materials and projects will be organized in the `02-OpenCV-Bootcamp/` directory. Each module will include:
+- Practice notebooks and code examples
+- Module-specific projects and exercises
+- Notes and learning insights
+- Quiz results and certification progress
 
 ## Notes and Tips
 
