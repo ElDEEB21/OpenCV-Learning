@@ -90,36 +90,6 @@ This repository serves as my personal learning log and practice space for OpenCV
 - 🛠️ Hands-on with Colab notebooks, practical quizzes, and optional projects
 - 🏆 Certificate from the official OpenCV team offered after meeting passing criteria
 
-### 📋 Learning Path (OpenCV Bootcamp Modules)
-The comprehensive curriculum covers:
-
-**🔰 Foundation Level:**
-- Getting Started with Images
-- Basic Image Manipulation
-- Histograms & Color Segmentation
-
-**🔧 Intermediate Level:**
-- Video Processing & Analysis
-- Contour & Shape Analysis
-- Image Registration Techniques
-
-**🚀 Advanced Level:**
-- Deep Learning Module
-- Face & Landmark Detection
-- Object Detection & Tracking
-- Human Pose Estimation
-
-**🎮 Practical Applications:**
-- Playing with CV (Human-Computer Interaction)
-- Web App Deployment with Streamlit
-- AR with ArUco Markers
-
-**🎯 Key Learning Outcomes:**
-- Master fundamental to advanced computer vision techniques
-- Build practical applications using OpenCV
-- Gain hands-on experience with deep learning integration
-- Develop skills in real-time video processing and analysis
-
 ## Prerequisites
 
 - Python 3.x
