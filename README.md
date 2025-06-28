@@ -15,19 +15,19 @@ This repository serves as my personal learning log and practice space for OpenCV
 - **Status**: ✅ **COMPLETED**
 - **Duration**: Comprehensive tutorial series covering fundamentals
 
-### 🔄 Currently Learning
 🎓 **OpenCV Bootcamp (Free OpenCV Course)**: [Free OpenCV Course](https://opencv.org/university/free-opencv-course/)
 - **Source**: OpenCV.org University
 - **Alternative Link**: [YouTube Playlist](https://www.youtube.com/watch?v=hZWgEPOVnuM&list=PL6e-Bu0cqf_jyhItJm_hEAopg8XNvoMXY)
 - **Course Platform**: [courses.opencv.org](https://courses.opencv.org)
 - **Language**: Python
-- **Status**: 🔄 **IN PROGRESS**
-- **Duration**: ~3 hours of video content
+- **Status**: ✅ **COMPLETED**
+- **Duration**: ~3 hours of video content + hands-on projects
 - **Format**: 
   - Self-paced video modules
   - Integrated quizzes and Colab notebooks
+  - Real-time applications and advanced projects
   - Official certification upon completion
-- **Focus**: Structured progression from foundational image manipulation to deep learning and real-world CV applications
+- **Focus**: Advanced computer vision applications, deep learning integration, and real-time processing
 
 ### Additional Resources
 📚 Other learning resources:
@@ -47,8 +47,24 @@ This repository serves as my personal learning log and practice space for OpenCV
 │   ├── 📁 Photos/                 # Sample images used in exercises
 │   ├── 📁 Videos/                 # Sample videos for practice
 │   └── 📁 models/                 # Trained models and data files
-└── 📁 02-OpenCV-Bootcamp/          # 🔄 Current: OpenCV Bootcamp course materials
-    └── (To be organized as I progress through the course modules)
+└── 📁 02-OpenCV-Bootcamp/          # ✅ Completed: OpenCV Bootcamp course materials
+    ├── 📄 README.md               # Bootcamp-specific documentation
+    ├── 📁 src/                    # Python scripts for real-time applications
+    │   ├── Camera.py              # Basic camera capture
+    │   ├── faceDetection.py       # DNN-based face detection
+    │   ├── realTimeObjectDetection.py # Object detection
+    │   └── realtime_pose_estimation.py # Human pose estimation
+    ├── 📁 notebooks/              # Jupyter notebooks for learning
+    │   ├── Getting_Started_with_Images.ipynb
+    │   ├── Basic_Image_Manipulations.ipynb
+    │   ├── Object_Detection.ipynb
+    │   └── ... (more notebooks)
+    ├── 📁 Models/                 # Pre-trained models and configs
+    │   ├── deploy.prototxt        # Face detection model
+    │   ├── res10_300x300_ssd_iter_140000_fp16.caffemodel
+    │   └── coco_class_labels.txt  # Object class labels
+    ├── 📁 Photos/                 # Sample images for bootcamp exercises
+    └── 📁 Videos/                 # Sample videos for tracking/analysis
 ```
 
 ## Learning Progress
@@ -68,43 +84,51 @@ This repository serves as my personal learning log and practice space for OpenCV
 - [x] Thresholding techniques
 - [x] Geometric transformations
 
-### 🔄 Currently Learning (OpenCV Bootcamp)
-**Main Modules Covered:**
-- [ ] **Getting Started with Images** – basics of loading and displaying images
-- [ ] **Basic Image Manipulation** – resizing, cropping, color conversions
-- [ ] **Histograms & Color Segmentation** – analyzing pixel distributions, masking
-- [ ] **Video Processing & Analysis** – frame capture, video playback
-- [ ] **Contour & Shape Analysis** – detecting and analyzing shapes
-- [ ] **Playing with CV (HCI)** – simple game development using vision
-- [ ] **Web App Deployment** – building apps with Streamlit
-- [ ] **Image Registration Techniques** – aligning multiple images
-- [ ] **AR with ArUco Markers** – augmented reality basics
-- [ ] **Deep Learning Module** – integrating neural networks
-- [ ] **Face & Landmark Detection** – detecting faces and facial features
-- [ ] **Object Detection** – identifying objects in images/videos
-- [ ] **Object Tracking** – following moving objects in video
-- [ ] **Human Pose Estimation** – detecting keypoints on humans
+**OpenCV Bootcamp (Advanced Course)**:
+- [x] **Getting Started with Images** – Image loading, display, and basic operations
+- [x] **Basic Image Manipulations** – Resizing, cropping, mathematical operations
+- [x] **Image Enhancement** – Histogram equalization and mathematical transformations
+- [x] **Annotating Images** – Drawing shapes, text, and annotations
+- [x] **High Dynamic Range (HDR)** – Multi-exposure image processing
+- [x] **Image Alignment** – Registration and geometric transformations
+- [x] **Panoramic Imaging** – Stitching multiple images together
+- [x] **Object Detection** – DNN-based detection using pre-trained models
+- [x] **Object Tracking** – Real-time tracking algorithms (CSRT, KCF)
+- [x] **Human Pose Estimation** – Real-time pose keypoint detection
+- [x] **Video Processing** – Reading, writing, and analyzing video streams
+- [x] **Real-time Applications** – Camera integration and live processing
 
-**Course Highlights:**
-- 🎯 Structured progression from foundational image manipulation to deep learning and real-world CV applications
-- 🛠️ Hands-on with Colab notebooks, practical quizzes, and optional projects
-- 🏆 Certificate from the official OpenCV team offered after meeting passing criteria
+**Advanced Features Mastered:**
+- ✅ **DNN Face Detection** – Using Caffe models for real-time face detection
+- ✅ **Real-time Object Detection** – SSD MobileNet for 80 COCO classes
+- ✅ **Human Pose Estimation** – OpenPose integration for keypoint detection
+- ✅ **Camera Integration** – Live video processing and filtering
+- ✅ **Model Integration** – Working with pre-trained deep learning models
+- ✅ **Performance Optimization** – Real-time processing techniques
+- ✅ **Advanced Image Processing** – HDR, panorama stitching, image alignment
 
 ## Prerequisites
 
 - Python 3.x
 - OpenCV (`pip install opencv-python`)
 - NumPy (`pip install numpy`)
-- Matplotlib (optional, for displaying images)
+- Matplotlib (for displaying images)
+- Jupyter Notebook (for running bootcamp notebooks)
 
 ## Installation
 
 ```bash
-# Install OpenCV
+# Core OpenCV installation
 pip install opencv-python
 
-# Install additional dependencies
+# Additional dependencies for all courses
 pip install numpy matplotlib
+
+# For bootcamp advanced features
+pip install opencv-contrib-python
+
+# For running Jupyter notebooks
+pip install jupyter notebook
 ```
 
 ## Usage
@@ -120,12 +144,42 @@ cd "01-FreeCodeCamp-Course/src"
 python <filename>.py
 ```
 
-### OpenCV Bootcamp Course (Current)
-As I progress through the OpenCV Bootcamp, new materials and projects will be organized in the `02-OpenCV-Bootcamp/` directory. Each module will include:
-- Practice notebooks and code examples
-- Module-specific projects and exercises
-- Notes and learning insights
-- Quiz results and certification progress
+### OpenCV Bootcamp Course (Completed)
+The `02-OpenCV-Bootcamp/` directory contains organized materials from the completed OpenCV bootcamp:
+
+**Running Python Scripts:**
+```bash
+# Navigate to project root and run scripts
+cd "02-OpenCV-Bootcamp"
+
+# Basic camera capture
+python src/Camera.py
+
+# Real-time face detection
+python src/faceDetection.py
+
+# Object detection (80 COCO classes)
+python src/realTimeObjectDetection.py
+
+# Human pose estimation
+python src/realtime_pose_estimation.py
+```
+
+**Using Jupyter Notebooks:**
+```bash
+# Start Jupyter in the bootcamp directory
+cd "02-OpenCV-Bootcamp"
+jupyter notebook
+
+# Open any notebook from the notebooks/ directory
+```
+
+**Key Features Available:**
+- 📹 Real-time camera processing with multiple algorithms
+- 🧠 Deep learning model integration (Caffe, TensorFlow)
+- 🎯 Pre-trained models for face detection, object detection, and pose estimation
+- 📊 Performance-optimized implementations
+- 🔧 Organized codebase with proper path management
 
 ## Notes and Tips
 
@@ -134,16 +188,34 @@ As I progress through the OpenCV Bootcamp, new materials and projects will be or
 - Remember that OpenCV uses BGR color format by default
 - Practice with different image types and sizes
 - Experiment with parameters to understand their effects
+- Real-time applications require performance optimization
+- Deep learning models need proper preprocessing and post-processing
+- Always consider lighting conditions and camera calibration for robust applications
 
 ## Future Plans
 
 - ✅ ~~Complete FreeCodeCamp OpenCV fundamentals course~~
-- 🔄 Progress through OpenCV University advanced course
-- Add more sophisticated computer vision projects
-- Implement real-time video processing applications
-- Explore deep learning integration with OpenCV
-- Create practical applications using learned concepts
-- Build a portfolio of computer vision projects
+- ✅ ~~Complete OpenCV University advanced bootcamp course~~
+- 🎯 **Next Steps**:
+  - Explore advanced deep learning frameworks integration (PyTorch, TensorFlow)
+  - Build custom computer vision applications and projects
+  - Investigate YOLO and other modern object detection architectures
+  - Develop mobile computer vision applications
+  - Create a comprehensive computer vision portfolio
+  - Explore computer vision in specialized domains (medical imaging, autonomous vehicles, etc.)
+  - Contribute to open-source computer vision projects
+
+## Achievements & Certifications
+
+- 🏆 **FreeCodeCamp OpenCV Course** - Completed (June 2025)
+- 🏆 **OpenCV University Bootcamp** - Completed (June 2025)
+- 📜 **Skills Mastered**: 
+  - Core OpenCV operations and image processing
+  - Real-time computer vision applications
+  - Deep learning model integration
+  - Object detection and tracking
+  - Human pose estimation
+  - Advanced image processing techniques (HDR, panorama, alignment)
 
 ## Contributing
 
@@ -155,5 +227,6 @@ This is a personal learning repository, but feel free to:
 ---
 
 📅 **Started**: June 2025  
-🎯 **Goal**: Master computer vision fundamentals with OpenCV  
-📚 **Status**: Actively Learning
+🎯 **Goal**: Master computer vision fundamentals and advanced techniques with OpenCV  
+📚 **Status**: Core Learning Complete - Moving to Advanced Projects  
+🏆 **Achievements**: 2 Major Courses Completed, Multiple Real-time Applications Built
