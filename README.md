@@ -29,6 +29,18 @@ This repository serves as my personal learning log and practice space for OpenCV
   - Official certification upon completion
 - **Focus**: Advanced computer vision applications, deep learning integration, and real-time processing
 
+### 🔄 Current Learning
+🚀 **Advanced Computer Vision with Python – Full Course**: [FreeCodeCamp Advanced Course](https://www.youtube.com/watch?v=01sAkU_NvOY&feature=youtu.be)
+- **Source**: FreeCodeCamp
+- **Language**: Python
+- **Status**: 🔄 **IN PROGRESS**
+- **Duration**: Full comprehensive course
+- **Focus**: Advanced computer vision applications using MediaPipe and OpenCV
+- **Structure**: 
+  - 4 Learning Chapters: Hand Tracking, Pose Estimation, Face Detection, Face Mesh
+  - 5 Practical Projects: Gesture Volume Control, Finger Counter, AI Personal Trainer, Virtual Painter, AI Virtual Mouse
+  - Projects will be implemented in separate repositories for portfolio building
+
 ### Additional Resources
 📚 Other learning resources:
 - Official OpenCV Documentation
@@ -47,24 +59,32 @@ This repository serves as my personal learning log and practice space for OpenCV
 │   ├── 📁 Photos/                 # Sample images used in exercises
 │   ├── 📁 Videos/                 # Sample videos for practice
 │   └── 📁 models/                 # Trained models and data files
-└── 📁 02-OpenCV-Bootcamp/          # ✅ Completed: OpenCV Bootcamp course materials
-    ├── 📄 README.md               # Bootcamp-specific documentation
-    ├── 📁 src/                    # Python scripts for real-time applications
-    │   ├── Camera.py              # Basic camera capture
-    │   ├── faceDetection.py       # DNN-based face detection
-    │   ├── realTimeObjectDetection.py # Object detection
-    │   └── realtime_pose_estimation.py # Human pose estimation
-    ├── 📁 notebooks/              # Jupyter notebooks for learning
-    │   ├── Getting_Started_with_Images.ipynb
-    │   ├── Basic_Image_Manipulations.ipynb
-    │   ├── Object_Detection.ipynb
-    │   └── ... (more notebooks)
-    ├── 📁 Models/                 # Pre-trained models and configs
-    │   ├── deploy.prototxt        # Face detection model
-    │   ├── res10_300x300_ssd_iter_140000_fp16.caffemodel
-    │   └── coco_class_labels.txt  # Object class labels
-    ├── 📁 Photos/                 # Sample images for bootcamp exercises
-    └── 📁 Videos/                 # Sample videos for tracking/analysis
+├── 📁 02-OpenCV-Bootcamp/          # ✅ Completed: OpenCV Bootcamp course materials
+│   ├── 📄 README.md               # Bootcamp-specific documentation
+│   ├── 📁 src/                    # Python scripts for real-time applications
+│   │   ├── Camera.py              # Basic camera capture
+│   │   ├── faceDetection.py       # DNN-based face detection
+│   │   ├── realTimeObjectDetection.py # Object detection
+│   │   └── realtime_pose_estimation.py # Human pose estimation
+│   ├── 📁 notebooks/              # Jupyter notebooks for learning
+│   │   ├── Getting_Started_with_Images.ipynb
+│   │   ├── Basic_Image_Manipulations.ipynb
+│   │   ├── Object_Detection.ipynb
+│   │   └── ... (more notebooks)
+│   ├── 📁 Models/                 # Pre-trained models and configs
+│   │   ├── deploy.prototxt        # Face detection model
+│   │   ├── res10_300x300_ssd_iter_140000_fp16.caffemodel
+│   │   └── coco_class_labels.txt  # Object class labels
+│   ├── 📁 Photos/                 # Sample images for bootcamp exercises
+│   └── 📁 Videos/                 # Sample videos for tracking/analysis
+└── 📁 03-Advanced-Computer-Vision/ # 🔄 Current: Advanced Computer Vision with MediaPipe
+    ├── 📄 README.md               # Advanced course documentation
+    ├── 📁 01-Hand-Tracking/       # Learn to detect and track hand landmarks in real-time using MediaPipe
+    ├── 📁 02-Pose-Estimation/     # Identify human body keypoints and estimate poses
+    ├── 📁 03-Face-Detection/      # Detect faces and facial landmarks
+    ├── 📁 04-Face-Mesh/          # Advanced landmark analysis (e.g., 3D face mesh)
+    ├── 📁 models/                 # Pre-trained models and configs
+    └── 📁 assets/                 # Sample images/videos for testing
 ```
 
 ## Learning Progress
@@ -98,6 +118,20 @@ This repository serves as my personal learning log and practice space for OpenCV
 - [x] **Video Processing** – Reading, writing, and analyzing video streams
 - [x] **Real-time Applications** – Camera integration and live processing
 
+### 🔄 Currently Learning
+**Advanced Computer Vision with Python (FreeCodeCamp)**:
+- [ ] **Chapter 1: Hand Tracking** – Learn to detect and track hand landmarks in real-time using MediaPipe
+- [ ] **Chapter 2: Pose Estimation** – Identify human body keypoints and estimate poses
+- [ ] **Chapter 3: Face Detection** – Detect faces and facial landmarks
+- [ ] **Chapter 4: Face Mesh** – Advanced landmark analysis (e.g., 3D face mesh)
+
+**Planned Projects (Separate Repositories)**:
+- [ ] **Gesture Volume Control** – System volume control via hand gestures
+- [ ] **Finger Counter** – Real-time finger counting application
+- [ ] **AI Personal Trainer** – Pose-based exercise feedback system
+- [ ] **Virtual Painter** – Hand gesture-based virtual painting
+- [ ] **AI Virtual Mouse** – Hand tracking for mouse cursor control
+
 **Advanced Features Mastered:**
 - ✅ **DNN Face Detection** – Using Caffe models for real-time face detection
 - ✅ **Real-time Object Detection** – SSD MobileNet for 80 COCO classes
@@ -126,6 +160,12 @@ pip install numpy matplotlib
 
 # For bootcamp advanced features
 pip install opencv-contrib-python
+
+# For MediaPipe (Advanced Computer Vision course)
+pip install mediapipe
+
+# For system integration projects (volume/mouse control)
+pip install pycaw pyautogui pygame
 
 # For running Jupyter notebooks
 pip install jupyter notebook
@@ -174,6 +214,26 @@ jupyter notebook
 # Open any notebook from the notebooks/ directory
 ```
 
+### Advanced Computer Vision Course (Current)
+The `03-Advanced-Computer-Vision/` directory contains materials for the current advanced course:
+
+**Course Structure:**
+```bash
+# Navigate to advanced course directory
+cd "03-Advanced-Computer-Vision"
+
+# Work on specific chapters
+cd "01-Hand-Tracking"     # Learn to detect and track hand landmarks in real-time using MediaPipe
+cd "02-Pose-Estimation"   # Identify human body keypoints and estimate poses
+cd "03-Face-Detection"    # Detect faces and facial landmarks
+cd "04-Face-Mesh"         # Advanced landmark analysis (e.g., 3D face mesh)
+```
+
+**Key Technologies:**
+- 🤖 **MediaPipe**: Google's ML framework for perception tasks
+- 🎯 **Real-time Processing**: Advanced computer vision applications
+- 🔧 **System Integration**: Volume control, mouse control, and more
+
 **Key Features Available:**
 - 📹 Real-time camera processing with multiple algorithms
 - 🧠 Deep learning model integration (Caffe, TensorFlow)
@@ -196,9 +256,12 @@ jupyter notebook
 
 - ✅ ~~Complete FreeCodeCamp OpenCV fundamentals course~~
 - ✅ ~~Complete OpenCV University advanced bootcamp course~~
-- 🎯 **Next Steps**:
+- 🔄 **Currently Working On**:
+  - Complete Advanced Computer Vision with Python course (FreeCodeCamp)
+  - Master MediaPipe framework for advanced perception tasks
+  - Build 5 practical computer vision projects as separate repositories
+- 🎯 **Next Steps After Current Course**:
   - Explore advanced deep learning frameworks integration (PyTorch, TensorFlow)
-  - Build custom computer vision applications and projects
   - Investigate YOLO and other modern object detection architectures
   - Develop mobile computer vision applications
   - Create a comprehensive computer vision portfolio
@@ -209,13 +272,13 @@ jupyter notebook
 
 - 🏆 **FreeCodeCamp OpenCV Course** - Completed (June 2025)
 - 🏆 **OpenCV University Bootcamp** - Completed (June 2025)
-- 📜 **Skills Mastered**: 
-  - Core OpenCV operations and image processing
-  - Real-time computer vision applications
-  - Deep learning model integration
-  - Object detection and tracking
-  - Human pose estimation
-  - Advanced image processing techniques (HDR, panorama, alignment)
+- � **Advanced Computer Vision with Python** - In Progress (July 2025)
+- 🎯 **Skills In Development**:
+  - MediaPipe framework mastery
+  - Advanced hand tracking and gesture recognition
+  - 3D face mesh analysis
+  - System integration (volume/mouse control)
+  - Real-time perception applications
 
 ## Contributing
 
@@ -227,6 +290,7 @@ This is a personal learning repository, but feel free to:
 ---
 
 📅 **Started**: June 2025  
-🎯 **Goal**: Master computer vision fundamentals and advanced techniques with OpenCV  
-📚 **Status**: Core Learning Complete - Moving to Advanced Projects  
-🏆 **Achievements**: 2 Major Courses Completed, Multiple Real-time Applications Built
+🎯 **Goal**: Master computer vision fundamentals and advanced techniques with OpenCV & MediaPipe  
+📚 **Status**: Advanced Learning Phase - Building Practical Applications  
+🏆 **Achievements**: 2 Major Courses Completed, 1 Advanced Course In Progress  
+🚀 **Current Focus**: MediaPipe-based advanced computer vision applications
