@@ -15,23 +15,15 @@ This course focuses on building practical computer vision applications using adv
 
 #### **Chapter 1: Hand Tracking**
 - Learn to detect and track hand landmarks in real-time using MediaPipe
-- **Location**: `01-Hand-Tracking/`
-- **Status**: ⏳ Not Started
 
 #### **Chapter 2: Pose Estimation** 
 - Identify human body keypoints and estimate poses
-- **Location**: `02-Pose-Estimation/`
-- **Status**: ⏳ Not Started
 
 #### **Chapter 3: Face Detection**
 - Detect faces and facial landmarks
-- **Location**: `03-Face-Detection/`
-- **Status**: ⏳ Not Started
 
 #### **Chapter 4: Face Mesh**
 - Advanced landmark analysis (e.g., 3D face mesh)
-- **Location**: `04-Face-Mesh/`
-- **Status**: ⏳ Not Started
 
 ### 🎯 Practical Projects (Separate Repositories)
 
