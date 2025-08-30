@@ -39,7 +39,7 @@ This repository serves as my personal learning log and practice space for OpenCV
 - **Structure**: 
   - 4 Learning Chapters: Hand Tracking, Pose Estimation, Face Detection, Face Mesh
   - 5 Practical Projects: Gesture Volume Control, Finger Counter, AI Personal Trainer, Virtual Painter, AI Virtual Mouse
-  - Projects will be implemented in separate repositories for portfolio building
+  - All projects will be implemented within this repository for comprehensive learning documentation
 
 ### Additional Resources
 📚 Other learning resources:
@@ -83,6 +83,7 @@ This repository serves as my personal learning log and practice space for OpenCV
     ├── 📁 02-Pose-Estimation/     # Identify human body keypoints and estimate poses
     ├── 📁 03-Face-Detection/      # Detect faces and facial landmarks
     ├── 📁 04-Face-Mesh/          # Advanced landmark analysis (e.g., 3D face mesh)
+    ├── 📁 05-Projects/           # Practical projects (Volume Control, Finger Counter, AI Trainer, etc.)
     ├── 📁 models/                 # Pre-trained models and configs
     └── 📁 assets/                 # Sample images/videos for testing
 ```
@@ -125,7 +126,7 @@ This repository serves as my personal learning log and practice space for OpenCV
 - [ ] **Chapter 3: Face Detection** – Detect faces and facial landmarks
 - [ ] **Chapter 4: Face Mesh** – Advanced landmark analysis (e.g., 3D face mesh)
 
-**Planned Projects (Separate Repositories)**:
+**Planned Projects (Within This Repository)**:
 - [ ] **Gesture Volume Control** – System volume control via hand gestures
 - [ ] **Finger Counter** – Real-time finger counting application
 - [ ] **AI Personal Trainer** – Pose-based exercise feedback system
@@ -259,7 +260,7 @@ cd "04-Face-Mesh"         # Advanced landmark analysis (e.g., 3D face mesh)
 - 🔄 **Currently Working On**:
   - Complete Advanced Computer Vision with Python course (FreeCodeCamp)
   - Master MediaPipe framework for advanced perception tasks
-  - Build 5 practical computer vision projects as separate repositories
+  - Build 5 practical computer vision projects within this repository
 - 🎯 **Next Steps After Current Course**:
   - Explore advanced deep learning frameworks integration (PyTorch, TensorFlow)
   - Investigate YOLO and other modern object detection architectures

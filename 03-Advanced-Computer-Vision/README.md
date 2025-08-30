@@ -7,7 +7,7 @@
 
 ## About This Course
 
-This course focuses on building practical computer vision applications using advanced techniques. The course is divided into learning chapters and hands-on projects that will be implemented in separate repositories.
+This course focuses on building practical computer vision applications using advanced techniques. The course is divided into learning chapters and hands-on projects that will be implemented within this repository.
 
 ## Course Structure
 
@@ -25,9 +25,9 @@ This course focuses on building practical computer vision applications using adv
 #### **Chapter 4: Face Mesh**
 - Advanced landmark analysis (e.g., 3D face mesh)
 
-### 🎯 Practical Projects (Separate Repositories)
+### 🎯 Practical Projects (Within This Repository)
 
-The following projects will be implemented as standalone applications in separate repositories:
+The following projects will be implemented as standalone applications within this repository:
 
 1. **Gesture Volume Control** – Control system volume by recognizing hand gestures
 2. **Finger Counter** – Build a counter that recognizes the number of fingers held up
@@ -35,7 +35,7 @@ The following projects will be implemented as standalone applications in separat
 4. **Virtual Painter** – Paint virtually using hand gestures
 5. **AI Virtual Mouse** – Control mouse cursor via hand movements
 
-*Note: Project repositories will be linked here once created.*
+*All projects will be organized in the `05-Projects/` directory for easy access and documentation.*
 
 ## Repository Structure
 
@@ -46,6 +46,12 @@ The following projects will be implemented as standalone applications in separat
 ├── 📁 02-Pose-Estimation/          # Human pose keypoint detection
 ├── 📁 03-Face-Detection/           # Face detection and landmarks
 ├── 📁 04-Face-Mesh/               # Advanced 3D face mesh analysis
+├── 📁 05-Projects/                # Practical projects directory
+│   ├── 📁 01-Gesture-Volume-Control/  # Project 1: Hand gesture volume control
+│   ├── 📁 02-Finger-Counter/          # Project 2: Real-time finger counting
+│   ├── 📁 03-AI-Personal-Trainer/     # Project 3: Pose-based exercise feedback
+│   ├── 📁 04-Virtual-Painter/         # Project 4: Hand gesture painting
+│   └── 📁 05-AI-Virtual-Mouse/        # Project 5: Hand tracking mouse control
 ├── 📁 models/                      # Pre-trained models and configs
 └── 📁 assets/                      # Sample images/videos for testing
 ```
@@ -60,12 +66,12 @@ The following projects will be implemented as standalone applications in separat
 - [ ] Chapter 3: Face Detection
 - [ ] Chapter 4: Face Mesh
 
-### Project Repositories
-- [ ] Project 1: Gesture Volume Control (Separate repo)
-- [ ] Project 2: Finger Counter (Separate repo)
-- [ ] Project 3: AI Personal Trainer (Separate repo)
-- [ ] Project 4: Virtual Painter (Separate repo)
-- [ ] Project 5: AI Virtual Mouse (Separate repo)
+### Project Implementation
+- [ ] Project 1: Gesture Volume Control (Within this repo)
+- [ ] Project 2: Finger Counter (Within this repo)
+- [ ] Project 3: AI Personal Trainer (Within this repo)
+- [ ] Project 4: Virtual Painter (Within this repo)
+- [ ] Project 5: AI Virtual Mouse (Within this repo)
 
 ## Dependencies
 
