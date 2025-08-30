@@ -30,10 +30,9 @@ This course focuses on building practical computer vision applications using adv
 The following projects will be implemented as standalone applications within this repository:
 
 1. **Gesture Volume Control** – Control system volume by recognizing hand gestures
-2. **Finger Counter** – Build a counter that recognizes the number of fingers held up
-3. **AI Personal Trainer** – Use pose data to give real-time exercise feedback
-4. **Virtual Painter** – Paint virtually using hand gestures
-5. **AI Virtual Mouse** – Control mouse cursor via hand movements
+2. **AI Personal Trainer** – Use pose data to give real-time exercise feedback
+3. **Virtual Painter** – Paint virtually using hand gestures
+4. **AI Virtual Mouse** – Control mouse cursor via hand movements
 
 *All projects will be organized in the `05-Projects/` directory for easy access and documentation.*
 
@@ -48,10 +47,9 @@ The following projects will be implemented as standalone applications within thi
 ├── 📁 04-Face-Mesh/               # Advanced 3D face mesh analysis
 ├── 📁 05-Projects/                # Practical projects directory
 │   ├── 📁 01-Gesture-Volume-Control/  # Project 1: Hand gesture volume control
-│   ├── 📁 02-Finger-Counter/          # Project 2: Real-time finger counting
-│   ├── 📁 03-AI-Personal-Trainer/     # Project 3: Pose-based exercise feedback
-│   ├── 📁 04-Virtual-Painter/         # Project 4: Hand gesture painting
-│   └── 📁 05-AI-Virtual-Mouse/        # Project 5: Hand tracking mouse control
+│   ├── 📁 02-AI-Personal-Trainer/     # Project 2: Pose-based exercise feedback
+│   ├── 📁 03-Virtual-Painter/         # Project 3: Hand gesture painting
+│   └── 📁 04-AI-Virtual-Mouse/        # Project 4: Hand tracking mouse control
 ├── 📁 models/                      # Pre-trained models and configs
 └── 📁 assets/                      # Sample images/videos for testing
 ```
@@ -68,10 +66,9 @@ The following projects will be implemented as standalone applications within thi
 
 ### Project Implementation
 - [ ] Project 1: Gesture Volume Control (Within this repo)
-- [ ] Project 2: Finger Counter (Within this repo)
-- [ ] Project 3: AI Personal Trainer (Within this repo)
-- [ ] Project 4: Virtual Painter (Within this repo)
-- [ ] Project 5: AI Virtual Mouse (Within this repo)
+- [ ] Project 2: AI Personal Trainer (Within this repo)
+- [ ] Project 3: Virtual Painter (Within this repo)
+- [ ] Project 4: AI Virtual Mouse (Within this repo)
 
 ## Dependencies
 

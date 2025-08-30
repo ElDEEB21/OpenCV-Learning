@@ -38,7 +38,7 @@ This repository serves as my personal learning log and practice space for OpenCV
 - **Focus**: Advanced computer vision applications using MediaPipe and OpenCV
 - **Structure**: 
   - 4 Learning Chapters: Hand Tracking, Pose Estimation, Face Detection, Face Mesh
-  - 5 Practical Projects: Gesture Volume Control, Finger Counter, AI Personal Trainer, Virtual Painter, AI Virtual Mouse
+  - 4 Practical Projects: Gesture Volume Control, AI Personal Trainer, Virtual Painter, AI Virtual Mouse
   - All projects will be implemented within this repository for comprehensive learning documentation
 
 ### Additional Resources
@@ -128,7 +128,6 @@ This repository serves as my personal learning log and practice space for OpenCV
 
 **Planned Projects (Within This Repository)**:
 - [ ] **Gesture Volume Control** – System volume control via hand gestures
-- [ ] **Finger Counter** – Real-time finger counting application
 - [ ] **AI Personal Trainer** – Pose-based exercise feedback system
 - [ ] **Virtual Painter** – Hand gesture-based virtual painting
 - [ ] **AI Virtual Mouse** – Hand tracking for mouse cursor control
